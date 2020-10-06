@@ -1,6 +1,6 @@
 # git-ci
 
-:smile: git-ci
+:smile: git sub-command to interact with CI/CD from command line
 
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/git-ci)
 [![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/git-ci/blob/master/COPYRIGHT)
@@ -16,18 +16,26 @@
 [![Go Report Card](https://goreportcard.com/badge/moul.io/git-ci)](https://goreportcard.com/report/moul.io/git-ci)
 [![CodeFactor](https://www.codefactor.io/repository/github/moul/git-ci/badge)](https://www.codefactor.io/repository/github/moul/git-ci)
 
+## 🚧 WIP 🚧
+
+## Demo
+
+[![demo](https://img.youtube.com/vi/I3izxdrICVk/0.jpg)](https://www.youtube.com/watch?v=I3izxdrICVk)
+
 ## Usage
 
 [embedmd]:# (.tmp/usage.txt console)
 ```console
-foo@bar:~$ git-ci hello world
-            _                                                   _                      _        _
- __ _  ___ | | __ _  _ _   __ _  ___  _ _  ___  _ __  ___  ___ | |_  ___  _ __   _ __ | | __ _ | |_  ___
-/ _` |/ _ \| |/ _` || ' \ / _` ||___|| '_|/ -_)| '_ \/ _ \|___||  _|/ -_)| '  \ | '_ \| |/ _` ||  _|/ -_)
-\__, |\___/|_|\__,_||_||_|\__, |     |_|  \___|| .__/\___/      \__|\___||_|_|_|| .__/|_|\__,_| \__|\___|
-|___/                     |___/                |_|                              |_|
-12 CPUs, /home/moul/go/bin/git-ci, fwrz, go1.15.2
-args ["git-ci","hello","world"]
+foo@bar:~$ git-ci -h
+USAGE
+  git-ci [flags] <subcommand>
+
+SUBCOMMANDS
+  status  
+
+FLAGS
+  -debug false              log debug information
+  -github-user-session ...  value of the "user_session" cookie on "github.com"
 ```
 
 ## Install

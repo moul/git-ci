@@ -8,8 +8,8 @@ include rules.mk
 generate: install
 	GO111MODULE=off go get github.com/campoy/embedmd
 	mkdir -p .tmp
-	echo 'foo@bar:~$$ git-ci hello world' > .tmp/usage.txt
-	git-ci hello world 2>&1 >> .tmp/usage.txt
+	echo 'foo@bar:~$$ git-ci -h' > .tmp/usage.txt
+	(git-ci -h 2>&1 || true) >> .tmp/usage.txt
 	embedmd -w README.md
 	rm -rf .tmp
 .PHONY: generate
