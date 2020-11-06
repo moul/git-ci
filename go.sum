@@ -97,8 +97,8 @@ github.com/stretchr/testify v1.6.1 h1:hDPOHmpOpP40lSULcqw7IrRb/u7w6RpDC9399XyoNd
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/tailscale/depaware v0.0.0-20200914232109-e09ee10c1824 h1:MD/YQ8xI070ZqFC3SnLAlhPPUNfeRKErQaAaXc/r4dQ=
 github.com/tailscale/depaware v0.0.0-20200914232109-e09ee10c1824/go.mod h1:nyzwKFaLuckPu3dAJHH7B6lMi4xDBWzD0r3pEpGZm2Y=
-github.com/tailscale/depaware v0.0.0-20201003033024-5d95aab075be h1:ZKe3kVGbu/goUVxXcaCPbQ4b0STQ5NsCpG90CG6mw/c=
-github.com/tailscale/depaware v0.0.0-20201003033024-5d95aab075be/go.mod h1:jissDaJNHiyV2tFdr3QyNEfsZrax/i2yQiSO+CljThI=
+github.com/tailscale/depaware v0.0.0-20201102210757-e2f543bafb1d h1:6tSgagMJvBlaa402Ecdtd6DLbdVs4EUzaJBVs+J7sr8=
+github.com/tailscale/depaware v0.0.0-20201102210757-e2f543bafb1d/go.mod h1:jissDaJNHiyV2tFdr3QyNEfsZrax/i2yQiSO+CljThI=
 github.com/tdewolff/minify/v2 v2.7.6 h1:b6UzNphZeDm3AVmk0a69orkNLPJzJx3k/AQ/W2xoMs8=
 github.com/tdewolff/minify/v2 v2.7.6/go.mod h1:Mt3hGbK/ETDplEP9EMNZo1lPkM3TZq0rDIVV76nFgY0=
 github.com/tdewolff/minify/v2 v2.9.10 h1:p+ifTTl+JMFFLDYNAm7nxQ9XuCG10HTW00wlPAZ7aoE=
