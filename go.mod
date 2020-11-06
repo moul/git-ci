@@ -3,6 +3,7 @@ module moul.io/git-ci
 go 1.13
 
 require (
+	github.com/bearer/go-agent v1.0.2
 	github.com/github/hub/v2 v2.14.3-0.20200824081724-31b6443687b3
 	github.com/gorilla/websocket v1.4.2
 	github.com/peterbourgon/ff/v3 v3.0.0
