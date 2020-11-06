@@ -13,6 +13,7 @@ import (
 	"sync"
 	"time"
 
+	bearer "github.com/bearer/go-agent"
 	"github.com/github/hub/v2/git"
 	"github.com/github/hub/v2/github"
 	"github.com/gorilla/websocket"
@@ -34,6 +35,8 @@ var (
 	fs                = flag.NewFlagSet("git-ci", flag.ExitOnError)
 	githubUserSession = fs.String("github-user-session", "", `value of the "user_session" cookie on "github.com"`)
 	debug             = fs.Bool("debug", false, "log debug information")
+	bearerToken       = fs.String("bearer-token", "", "bearer.sh optional token")
+	bearerEnv         = fs.String("bearer-env", "development", "bearer.sh optional environment")
 	logger            *zap.Logger
 )
 
@@ -41,7 +44,7 @@ func run(args []string) error {
 	// setup & parse CLI
 	root := &ffcli.Command{
 		ShortUsage: "git-ci [flags] <subcommand>",
-		ShortHelp:  "interract with CI/CD from command line",
+		ShortHelp:  "interact with CI/CD from command line",
 		FlagSet:    fs,
 		Options:    []ff.Option{ff.WithEnvVarNoPrefix()},
 		Exec: func(ctx context.Context, args []string) error {
@@ -72,6 +75,14 @@ func run(args []string) error {
 			zap.String("github-user-session", sensitiveData(*githubUserSession)),
 			zap.Bool("debug", *debug),
 		)
+	}
+
+	// setup bearer
+	{
+		if *bearerToken != "" {
+			agent := bearer.New(*bearerToken, bearer.WithEnvironment(*bearerEnv))
+			defer agent.Close()
+		}
 	}
 
 	// run CLI command
