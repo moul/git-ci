@@ -34,6 +34,8 @@ SUBCOMMANDS
   status  
 
 FLAGS
+  -bearer-env development   bearer.sh optional environment
+  -bearer-token ...         bearer.sh optional token
   -debug false              log debug information
   -github-user-session ...  value of the "user_session" cookie on "github.com"
 ```
