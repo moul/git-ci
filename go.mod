@@ -13,7 +13,7 @@ require (
 	github.com/peterbourgon/ff/v3 v3.0.0
 	github.com/rs/zerolog v1.20.0 // indirect
 	github.com/stretchr/testify v1.6.1
-	github.com/tailscale/depaware v0.0.0-20201102210757-e2f543bafb1d
+	github.com/tailscale/depaware v0.0.0-20201214215404-77d1e9757027
 	github.com/tdewolff/minify/v2 v2.9.10 // indirect
 	go.uber.org/goleak v1.1.10
 	go.uber.org/zap v1.16.0
@@ -21,9 +21,8 @@ require (
 	golang.org/x/net v0.0.0-20201031054903-ff519b6c9102 // indirect
 	golang.org/x/sys v0.0.0-20201106081118-db71ae66460a // indirect
 	golang.org/x/text v0.3.4 // indirect
-	golang.org/x/tools v0.0.0-20201005185003-576e169c3de7 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	moul.io/motd v1.0.0
-	moul.io/zapconfig v1.2.0
+	moul.io/zapconfig v1.3.0
 )
