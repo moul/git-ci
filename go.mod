@@ -12,7 +12,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/peterbourgon/ff/v3 v3.0.0
 	github.com/rs/zerolog v1.20.0 // indirect
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/tailscale/depaware v0.0.0-20201214215404-77d1e9757027
 	github.com/tdewolff/minify/v2 v2.9.10 // indirect
 	go.uber.org/goleak v1.1.10
