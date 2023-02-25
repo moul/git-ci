@@ -17,9 +17,7 @@ require (
 	github.com/tdewolff/minify/v2 v2.9.10 // indirect
 	go.uber.org/goleak v1.1.10
 	go.uber.org/zap v1.18.1
-	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897 // indirect
-	golang.org/x/net v0.0.0-20201031054903-ff519b6c9102 // indirect
-	golang.org/x/text v0.3.4 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	moul.io/motd v1.0.0
