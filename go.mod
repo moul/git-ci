@@ -6,7 +6,7 @@ require (
 	github.com/bearer/go-agent v1.0.2
 	github.com/github/hub/v2 v2.14.3-0.20200824081724-31b6443687b3
 	github.com/golang/protobuf v1.4.3 // indirect
-	github.com/gorilla/websocket v1.4.2
+	github.com/gorilla/websocket v1.5.3
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
